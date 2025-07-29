@@ -11,8 +11,7 @@ This is the app I built out of *pure frustration*, a (c)lifeline for anyone who�
 
 - Missed a meeting because they thought PST stood for Perpetual Scheduling Trauma.
 - Scheduled a call at 3am because "I thought you meant c u next YOUR Tuesday."
-- Said “UTC is the truth” and then immediately looked up a converter.
-– Debated whether DST is a global conspiracy… or just a Queensland cow protection policy (moo 🐄)
+- Debated whether DST is a global conspiracy… or just a Queensland cow protection policy (moo 🐄).
 
 If you’ve ever tried to arrange a meeting across 4+ timezones, you know:  
 **time isn’t real.** Or at least it’s not consistently configured across the globe.
