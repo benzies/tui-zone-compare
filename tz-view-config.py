@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
-import tomli  # <-- Import the tomli library
+import tomli 
 from rich.console import Console
 from rich.table import Table
 from rich.live import Live
@@ -55,7 +55,7 @@ def generate_table(timezones: list[str]) -> Table:
     for tz_name in timezones:
         offset_seconds = now_utc.astimezone(ZoneInfo(tz_name)).utcoffset().total_seconds()
         offset_hours = offset_seconds / 3600
-        offset_str = f"{offset_hours:+0.0f}h" # Added 'h' for clarity
+        offset_str = f"{offset_hours:+0.0f}h"
         table.add_column(f"{tz_name}\n({offset_str})", justify="center", header_style="bold cyan")
 
     current_hour_style = Style(bgcolor="bright_blue")
