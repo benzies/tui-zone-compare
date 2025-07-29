@@ -1,0 +1,19 @@
+# The timezone to use as the primary reference (your local time).
+# If empty, it will use the system's local timezone.
+default = "Australia/Sydney"
+
+# A list of other timezones to display as columns.
+# Use IANA timezone database names.
+timezones = [
+    "UTC",
+    "Pacific/Auckland",
+    "Australia/Sydney",
+    "Australia/Perth",
+    "Asia/Singapore",
+    "Asia/Calcutta",
+    "Asia/Dubai",
+    "Europe/London",
+    "Europe/Ljubljana",
+    "US/Eastern",
+    "US/Pacific"
+]
